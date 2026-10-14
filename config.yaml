@@ -1,0 +1,12 @@
+seeds:
+  - "https://iptv.445569.xyz/live.m3u"
+concurrency: 12
+timeout_s: 12
+max_fetch_size: 2097152
+user_agent: "iptv-collector/1.0"
+output_m3u: "combined.m3u"
+output_json: "sources.json"
+validate_with_ffprobe: false
+follow_discovered_m3u: true
+max_discovered_links: 500
+epg_path: ""
